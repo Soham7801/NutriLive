@@ -1,0 +1,215 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	padding:25px 0;
+    width: 100%;
+}
+.navbar .logo{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+}
+
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+	background:rgba(255, 255, 255, 0.5);
+	color: #000;
+
+}
+.navbar ul.nav li a{
+	color: #fff;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+	color: #000;
+}
+.navbar .col1{
+    width: 90%;
+}
+.navbar .col2{
+    width: 10%;
+  
+}
+.navbar .col1 .text1{
+    padding-left: 30px;
+}
+.navbar .col2 .text2{
+   
+    justify-content: space-around;
+}
+button.button{
+    background-color:transparent;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+}
+
+button.dropdown2{
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+   }
+button.button:hover{
+    background:rgba(255, 255, 255, 0.5);
+}
+button.dropdown2:hover{
+    background:rgba(255, 255, 255, 0.5);
+}
+
+#list2{
+    background:rgba(255, 255, 255, 0.5);
+    color: #fff;
+	font-size: 1em;
+	font-weight: 500;
+}
+/*slider*/
+#carouselExampleIndicators{
+	position: relative;
+	height: 250px;
+	width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+}
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	min-height: 500px;
+	width: 100%;
+	z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background: url('NutriLive.png');
+	background-size: 100% 100% ;
+
+    
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url('1.png');
+	background-size: 100% 100%;
+	background-position: center;
+	
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('2.png');
+	background-size: 100% 100%;
+	background-position: center;
+	
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(4){
+	background: url('3.png');
+	background-size: 100% 100%;
+	background-position: center;
+	
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5){
+	background: url('4.png');
+	background-size: 100% 100%;
+	background-position: center;
+	
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	
+	z-index: 1;
+	
+   
+}
+div.box{
+    width: 100%;
+    height:65.3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:url('bg.jpg');
+   
+    }
+
+    div.card1{
+        width: 250px;
+        text-align: center;
+        margin-top: 150px;
+        border: 3px gray;
+        
+        
+    }
+    div.card2{
+        width: 250px;
+        text-align: center;
+        margin-top: 150px;
+        border: 3px gray;
+        
+    }
+    div.card3{
+        width: 250px;
+        text-align: center;
+        margin-top: 150px;
+        border: 3px gray;
+    }
+    div.card1 img{
+        width: 100%;  
+    }
+    
+    div.card2 img{
+        width: 100%;
+    }
+    div.card3 img{
+        width: 100%;
+    }
+    .card1 :hover{
+        background-color:  #1479ff;
+        text-decoration: none;
+      }
+    .card2 :hover{
+        background-color:  #1479ff;
+        text-decoration: none;
+      }
+    .card3 :hover{
+        background-color:  #1479ff;
+        text-decoration: none;
+      }
+    div.text{
+        width: 100%;
+        background-color:black;
+        color: white;
+        font-style: italic;
+        font-size: large;
+        font-weight: bold;
+     
+    }
+   
+    a{
+        text-decoration: none;
+    }
+   a:visited{
+       color:inherit;
+       text-decoration: inherit;
+   }

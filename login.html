@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="login.css">
+      <title>Login/Signup</title>
+      
+   </head>
+   <body>
+         <div class="box">
+                  <div class="heading">
+                         <i class="fas fa-user-circle fa-5x"></i>      
+                           <h1>LOG-IN</h1>
+                 </div>
+        
+            <form id="clear">
+                   <div class="email"> <input  id="email" type="email" placeholder="EmailID"  style="background-image: url('picon.png');background-position: 1px 1px;background-size: 21px 21px; background-repeat: no-repeat;" ></div>
+                   <div class="password"> <input  id="password" type="password" placeholder="Password" style="background-image: url('passicon.png');background-position: 1px 1px;background-size: 21px 21px; background-repeat: no-repeat; " required ></div>
+                   <div class="button">
+                      <a href="homepage.html"><input type="button" value="SignUp" onclick="signUp()" id="opt1"></a>
+                      <input type="button" value="LogIn" onclick="signIn()" id="opt2"> 
+                      <input type="button"  value="LogOut" onclick="signOut()" id="opt3">
+                   </div>
+                   <div class="button">
+                      <input type="button"  value="Delete" onclick="deleteUser()" id="opt4">
+
+                      <button  type="submit" id="opt5" >Clear</button>
+                  </div>
+           </form>
+        </div>
+      <script src="main.js"></script>
+   </body>
+</html>
